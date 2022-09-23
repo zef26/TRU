@@ -1,0 +1,265 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans";
+}
+a {
+  text-decoration: none;
+}
+body {
+  background-color: rgb(255, 245, 245);
+}
+header {
+  background-color: white;
+  width: 100%;
+  height: 136px;
+  padding-top: 33px;
+  position: fixed;
+  z-index: 3;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  margin-left: 28px;
+}
+.header-right {
+  display: flex;
+}
+
+.header-right a{
+  margin-right: 41px;
+  font-weight: 700;
+  font-size: 20px;
+  color: black;
+  transition: 300ms;
+}
+.header-right a:hover{
+  color:#990000;
+}
+header hr {
+  border: 1px solid #990000;
+  border-bottom: none;
+}
+.header-right p:nth-child(4) {
+  margin-right: 243px;
+}
+main {
+  padding-top: 136px;
+}
+.container {
+  margin: 0 auto;
+  width: 1000px;
+}
+.container-header{
+  width: 1440px;
+  margin: 0 auto;
+}
+.box1 {
+  background-color: white;
+  margin: 0 auto;
+  width: 1440px;
+  height: 658px;
+  background-image: url(../img/Blueprint.png);
+  background-size: 987px 658px;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+.item h1 {
+  padding-top: 215px;
+  font-size: 45px;
+  margin-bottom: 17px;
+}
+.item p {
+  font-size: 28px;
+  line-height: 33px;
+  margin-bottom: 51px;
+  color: #333333;
+}
+.item button {
+  width: 181px;
+  height: 59px;
+  background: #990000;
+  border: none;
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+  transition: 300ms;
+}
+.item button:hover{
+  background-color:black;
+  
+}
+.box2 {
+  height: 460px;
+  width: 1440px;
+  background-color: #990000;
+  margin: 0 auto;
+  background-image: url(../img/ggwp.png);
+ 
+}
+.it-left h3 {
+  margin-top: 148px;
+  font-weight: 700;
+  font-size: 36px;
+  color: white;
+}
+.it-left p {
+  margin-top: 26px;
+  line-height: 29px;
+  width: 510px;
+  font-weight: 400;
+  font-size: 18px;
+  color: white;
+}
+.item-2 {
+  display: flex;
+  justify-content: space-between;
+}
+.item-2 button {
+  margin-top: 254px;
+  width: 181px;
+  height: 59px;
+  background-color: white;
+  border: none;
+  font-weight: 700;
+  font-size: 20px;
+  color: #990000;
+  transition: 300ms;
+}
+.it-right button:hover{
+  background-color: black;
+  color: white;
+}
+.container-2 {
+  width: 954px;
+  margin: 0 auto;
+}
+.box3 {
+  background-color: white;
+  margin: 0 auto;
+  background-image: url(../img/OIU9LJ1\ copy.png);
+  width: 1440px;
+  height: 980px;
+  background-size: cover;
+  
+  background-repeat: no-repeat;
+  padding-top: 107px;
+}
+.item-3 h3 {
+  font-weight: 700;
+  font-size: 36px;
+  margin-left: 259px;
+  margin-bottom: 14px;
+}
+.short {
+  margin-left: 259px;
+  width: 100px;
+  height: 10px;
+  background-color: #990000;
+  margin-bottom: 98px;
+}
+.grids {
+  display: grid;
+  grid-template-columns: repeat(2, 370px);
+  grid-auto-rows: 118px;
+  grid-gap: 90px 214px;
+}
+.gbox h5 {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.gbox p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 29px;
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 75px;
+}
+
+footer{
+  
+  width: 100%;
+  
+  background: radial-gradient(101.02% 101.02% at 1.2% 0%, #3E3E3E 1.04%, #000000 100%);
+}
+.logo p{
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+ 
+  
+}
+.footer p:nth-child(3){
+  margin-bottom: 4  0px;
+}
+.logo img{
+  margin-bottom: 15px;
+}
+.foot-center{
+  width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.foot-center a{
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  margin-right: 50px;
+  margin-bottom: 70px;
+}
+.foot-btn button{
+  width: 40px;
+  height: 30px;
+  margin-left: 10px;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  background: linear-gradient(135deg, #69E4A3 0%, #D2E66A 56.25%, #FDE753 100%);
+}
+
+.foot-input{
+ width: 300px;
+}
+.foot-btn{
+  display: flex;
+  align-items: center;
+}
+.foot-btn input{
+  height: 30px;
+  border: none;
+  outline: none;
+  padding-left: 20px;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+.foot-input h3 {
+  color: white;
+  font-size: 18px;
+  margin-bottom: 15px;
+
+}
+.foot-input p{
+  font-size: 14px;
+  color: white;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+svg{
+  width: 30px;
+  height: 30px;
+}
+.footer-container{
+  width: 1440px;
+  margin: 0 auto;
+}
+.brg-menu{
+  display: none;
+  margin-right: 41px;
+}
